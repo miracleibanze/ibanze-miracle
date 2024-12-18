@@ -82,13 +82,13 @@ export const frontendProjects = [
     index: 1,
     name: "IMMovies",
     description:
-      "IMMovies is a sleek front-end application built with React and Tailwind CSS, allowing users to search and explore movies. This project involved the use of the Movie Database API to fetch movie data, which is then displayed in a user-friendly interface. My primary goal was to create a responsive, intuitive interface for users to browse and interact with movie data, while ensuring optimal performance and user experience across different screen sizes and devices.",
+      "IMMovies is a sleek front-end application built with React and Tailwind CSS, providing users with an intuitive and visually engaging interface for exploring movie concepts. The project emphasizes responsiveness, user-friendly design, and optimal performance across various devices.",
     detailedDescription:
-      "IMMovies is a front-end web application that integrates the Movie Database API to provide users with a seamless experience in searching, viewing, and exploring movies. It features a dynamic interface built with React, where I utilized components for modular development, making the codebase maintainable and easy to update. Tailwind CSS was chosen for rapid styling, enabling me to implement responsive designs that adjust to different screen sizes. The application’s performance was optimized using Vite for faster build times, and the routing was handled with React Router to ensure smooth navigation between pages.",
+      "IMMovies is a front-end web application showcasing advanced UI/UX design principles. The interface is built with React for modular development, ensuring maintainable and scalable code. Tailwind CSS was used for styling, enabling a responsive design adaptable to different screen sizes. The application also focuses on performance optimization using Vite for faster build times, while React Router ensures seamless navigation between pages.",
     challengesFaced:
-      "One of the biggest challenges I faced during the development of IMMovies was implementing an efficient search and filter mechanism that could handle large data sets retrieved from the API. I tackled this challenge by optimizing the API requests and implementing lazy loading to improve the performance of the app. Another challenge was ensuring the app was responsive across all devices. I used Tailwind CSS’s utility-first classes to quickly test and adjust the layout for different screen sizes, ensuring a seamless user experience.",
+      "One of the biggest challenges was implementing an intuitive and efficient search mechanism to simulate movie data exploration without external data. Ensuring the app was responsive across all devices required leveraging Tailwind CSS’s utility-first classes to quickly test and adjust layouts for a seamless user experience.",
     skillsDeveloped:
-      "Through this project, I gained further expertise in React.js, particularly with component-based architecture and managing state with React hooks. Tailwind CSS proved to be an excellent choice for rapidly building responsive, well-designed UIs. Additionally, I became proficient in using Vite for fast development and optimized builds, which greatly improved the development workflow.",
+      "This project strengthened my expertise in React.js, particularly in component-based architecture and state management with React hooks. I gained deeper knowledge of Tailwind CSS for rapidly building responsive UIs and improved my development workflow with Vite. Additionally, I enhanced my design sensibilities to create engaging user interfaces.",
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
     status: "Completed",
     image: { img: IMMoviesProject, imgPlaceHolder: IMMoviesProjectSmall },
@@ -96,19 +96,15 @@ export const frontendProjects = [
     additionalLinks: [
       {
         label: "GitHub Repo",
-        url: "https://github.com/username/immovies",
-      },
-      {
-        label: "API Documentation",
-        url: "https://www.themoviedb.org/documentation/api",
+        url: "https://github.com/miracleibanze/IMMovies",
       },
     ],
     projectHighlights: [
-      "Implemented search and filtering system for movie data",
-      "Built a responsive design using Tailwind CSS",
-      "Used React Router for seamless navigation",
+      "Designed a visually engaging UI with React and Tailwind CSS",
+      "Implemented responsive design for various screen sizes",
+      "Optimized performance using Vite for faster builds",
     ],
-    duration: "3 months",
+    duration: "1 month, 5 days",
     role: "Frontend Developer",
     projectType: "Individual Project",
   },
@@ -116,13 +112,13 @@ export const frontendProjects = [
     index: 2,
     name: "Mukingi Secondary School",
     description:
-      "E-S Mukingi is a platform for Mukingi Secondary School that provides essential information such as news, events, and educational resources. The goal was to create a central hub for students and staff to access important school-related information, stay updated with news and announcements, and participate in online discussions.",
+      "E-S Mukingi is a platform designed to showcase school information, news, and events. The focus was on creating a user-friendly hub for students and staff to interact with educational content and updates.",
     detailedDescription:
-      "This project aimed to streamline communication within Mukingi Secondary School by creating a dedicated online platform. It was built with React.js and Tailwind CSS to provide a user-friendly interface. React’s component-based structure allowed for easy updates to the content while ensuring the app remained responsive across devices. The app includes features like a live news feed, event calendar, and user authentication to enable staff and students to post and interact with content. Vite was used for faster build times during development.",
+      "This project streamlines communication within Mukingi Secondary School by presenting news, events, and educational resources through a clean, responsive interface. Built with React.js and Tailwind CSS, the platform’s design emphasizes simplicity and usability. React’s component-based structure ensured easy updates and maintenance, while responsive layouts cater to users on both desktop and mobile devices.",
     challengesFaced:
-      "One challenge I encountered was creating a flexible content management system for the events and news section. I had to design a backend that could easily manage content updates without requiring a developer to make changes to the codebase. To solve this, I created an admin panel with role-based access control, ensuring that only authorized staff members could update the platform. Additionally, integrating the app with the school’s existing communication tools was a challenge, but I successfully implemented a notification system to keep users engaged with timely updates.",
+      "Creating a user-centric platform that effectively displays content without relying on external data was a key challenge. I focused on crafting reusable components for dynamic content presentation. Ensuring the platform maintained a clean and responsive interface also required iterative testing and styling adjustments.",
     skillsDeveloped:
-      "This project helped me hone my skills in React.js, particularly with managing complex state using hooks and Context API. I also learned about authentication and authorization, implementing JWT for secure logins. The biggest takeaway was the value of designing a user-centric, intuitive interface that catered to the needs of both students and staff.",
+      "I advanced my skills in creating intuitive, responsive designs using React and Tailwind CSS. This project helped me improve my ability to design user-friendly interfaces tailored to specific user groups, ensuring accessibility and ease of use.",
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
     status: "Completed",
     image: { img: MukingiSSProject, imgPlaceHolder: MukingiSSProjectSmall },
@@ -130,33 +126,29 @@ export const frontendProjects = [
     additionalLinks: [
       {
         label: "GitHub Repo",
-        url: "https://github.com/username/mukingi-ss",
-      },
-      {
-        label: "API Documentation",
-        url: "https://mock-api.mukingi-ss.com/docs",
+        url: "https://github.com/miracleibanze/E.S.Mukingi",
       },
     ],
     projectHighlights: [
-      "Designed and built the front-end interface for the school platform",
-      "Created UI design for user friendly for news and events",
-      "Developed responsive layouts for mobile and desktop views",
+      "Developed a responsive, user-friendly design for school updates",
+      "Designed reusable components to simplify content management",
+      "Optimized layouts for mobile and desktop devices",
     ],
-    duration: "2 months",
+    duration: "1 month, 20 days",
     role: "Frontend Developer",
     projectType: "Individual Project",
   },
   {
     index: 3,
-    name: "BrainWave app",
+    name: "BrainWave App",
     description:
-      "BrainWave is an AI-powered front-end application designed to help users improve focus and productivity by generating personalized images and videos. The app leverages machine learning models to create visual content that boosts cognitive function and reduces distractions.",
+      "BrainWave is a front-end application designed to improve focus and productivity by providing users with minimalist visual content in a calming interface.",
     detailedDescription:
-      "BrainWave is a unique front-end application that uses artificial intelligence to generate images and videos tailored to improve users' focus and productivity. The app was built with React.js and Tailwind CSS, with the user interface designed to be minimalist and calming. Integrating machine learning models for content generation was the most exciting part of the project. I used APIs to interact with the models and deliver personalized media. The app was designed to be as lightweight as possible for quick load times, ensuring that users could use the tool without delays.",
+      "BrainWave offers a clean, minimalist user interface aimed at enhancing productivity. Built with React.js and Tailwind CSS, the app prioritizes simplicity and performance. The design incorporates calming elements to maintain a distraction-free experience, with lightweight components ensuring smooth performance across devices.",
     challengesFaced:
-      "A significant challenge in this project was integrating the machine learning models into the app. The models generated large files that impacted the app’s performance. To overcome this, I optimized the way the media files were loaded and displayed, using techniques like lazy loading and image compression. I also needed to ensure that the app’s interface remained distraction-free while delivering personalized content. This required careful design choices and continuous testing to balance usability with functionality.",
+      "The biggest challenge was creating a visually calming yet interactive design that encouraged productivity. Balancing minimalism with functionality required careful UI/UX design choices, ensuring that the app’s features complemented its purpose without overwhelming users.",
     skillsDeveloped:
-      "Through this project, I gained valuable experience in integrating AI-powered APIs into a front-end application. I learned about performance optimization techniques, such as lazy loading, image compression, and optimizing API calls. Additionally, the project enhanced my understanding of how user experience design can complement productivity tools, ensuring that the app remains both functional and pleasant to use.",
+      "This project enhanced my ability to design applications focused on user experience and aesthetic simplicity. I also refined my skills in optimizing app performance and learned to strike a balance between functional and minimalistic design.",
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
     status: "Completed",
     image: { img: brainwaveProject, imgPlaceHolder: brainwaveProjectSmall },
@@ -164,19 +156,15 @@ export const frontendProjects = [
     additionalLinks: [
       {
         label: "GitHub Repo",
-        url: "https://github.com/username/brainwave-app",
-      },
-      {
-        label: "AI Models Documentation",
-        url: "https://docs.ai.model.com",
+        url: "https://github.com/miracleibanze/Brainwave",
       },
     ],
     projectHighlights: [
-      "stunning UI Integrated AI models to generate personalized content",
-      "Designed a minimalist interface focused on productivity",
-      "Implemented lazy loading and image compression techniques",
+      "Designed a minimalist, productivity-focused user interface",
+      "Ensured lightweight performance with React.js and Tailwind CSS",
+      "Created a distraction-free app environment for users",
     ],
-    duration: "4 months",
+    duration: "29 days",
     role: "Frontend Developer",
     projectType: "Individual Project",
   },
@@ -187,13 +175,13 @@ export const fullStackProjects = [
     index: 4,
     name: "IMConnect",
     description:
-      "IMConnect is a user-friendly app that facilitates communication and collaboration, built with MERN Stack technologies. It enables real-time messaging, group chats, and media sharing, offering an intuitive platform for teams to interact and collaborate on projects.",
+      "IMConnect is a full-stack application designed for seamless communication and collaboration, offering features like real-time messaging, group chats, and media sharing.",
     detailedDescription:
-      "IMConnect is a comprehensive full-stack application built with the MERN stack (MongoDB, Express, React, Node.js) that facilitates communication and collaboration between teams. Users can send real-time messages, create group chats, share media, and manage their profiles. The front-end was built using React, with state management handled via Context API and React hooks. On the back-end, Node.js and Express were used to build RESTful APIs for message handling, authentication, and real-time communication via Socket.io. The app also includes MongoDB for database storage, handling user data, and chat history.",
+      "IMConnect is a dynamic application emphasizing user interaction and collaboration. Built with the MERN stack, it features real-time messaging, group chats, and a clean, responsive interface. The front-end, developed with React, utilizes state management through Context API and hooks, while the back-end, built with Node.js and Express, handles routing and application logic. MongoDB was used for structuring mock data to simulate user interaction scenarios.",
     challengesFaced:
-      "A major challenge in developing IMConnect was ensuring smooth real-time communication across different devices. This was achieved using Socket.io for real-time messaging and by optimizing the WebSocket connection. Another challenge was building a secure authentication system to protect user data and messages. I integrated JWT-based authentication and authorization for a more secure experience.",
+      "Developing realistic simulations of real-time messaging without live server connections was a unique challenge. I implemented creative logic on the front end to mimic real-time interactions and designed the interface for ease of use and visual appeal.",
     skillsDeveloped:
-      "This project provided hands-on experience with full-stack development, particularly with real-time communication technologies like Socket.io. I also improved my skills in database management with MongoDB and learned more about building secure applications using JWT for authentication. Working with the MERN stack gave me deeper insights into both front-end and back-end development.",
+      "This project provided an in-depth understanding of creating seamless user experiences in communication apps. I honed my React and Node.js skills, focusing on UI/UX design and mock data handling for a full-stack simulation.",
     technologies: [
       "React.js",
       "Node.js",
@@ -207,16 +195,16 @@ export const fullStackProjects = [
     additionalLinks: [
       {
         label: "GitHub Repo",
-        url: "https://github.com/username/imconnect",
+        url: "https://github.com/miracleibanze/IMConnect-client",
+        url: "https://github.com/miracleibanze/IMConnect-api",
       },
     ],
     projectHighlights: [
-      "Built real-time messaging features using Socket.io",
-      "Developed RESTful APIs for user authentication and messaging",
-      "Integrated JWT-based authentication for secure logins",
-      "Designed the UI with Tailwind CSS for responsiveness",
+      "Simulated real-time messaging features",
+      "Designed and built front-end and back-end mock logic",
+      "Created a responsive, user-friendly UI with Tailwind CSS",
     ],
-    duration: "6 months",
+    duration: "2 month, 3 days",
     role: "Full-Stack Developer",
     projectType: "Collaborative Project",
   },

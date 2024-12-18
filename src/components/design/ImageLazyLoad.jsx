@@ -14,7 +14,7 @@ const LazyLoadedImage = ({ src, alt, className, placeholder }) => {
       {!loaded && (
         <>
           <div
-            className="placeholder rounded-full"
+            className="placeholder skeleton-loader rounded-full"
             style={{
               position: "absolute",
               top: 0,
