@@ -1,76 +1,139 @@
-import loaderSvg from "./loader.svg";
-import artUnderwater from "./register/art-underwater.jpg";
-import editSvg from "./register/pen.svg";
-import uploadCloud from "./register/upload-cloud.svg";
-import checkSvg from "./editors/check-badge.svg";
+import spinnerSvg from "./svg/spinner.svg";
+import blackSpinnerSvg from "./svg/blackSpinner.svg";
 
-import commentsSvg from "./navbar/comments.svg";
-import bellSvg from "./navbar/bell-fill.svg";
-import searchSvg from "./navbar/search.svg";
-import envelopeSvg from "./navbar/envelope-open-text.svg";
-import userSvg from "./navbar/user.svg";
-import logo from "./logo.png";
-import publicBg from "./background-image.jpg";
-import registerBg from "./register-bg.jpg";
-import eyeSlashSvg from "./register/eye-slash.svg";
+import profile from "./profile.png";
+import profile2 from "./profile2.png";
+import profileSmall from "./profile-small.png";
 
-import arrowRightOnRectangleSvg from "./sidebar/arrow-right-on-rectangle.svg";
-import gearFillSvg from "./sidebar/gear-fill.svg";
-import homeSvg from "./sidebar/home.svg";
-import plusSquareSvg from "./sidebar/plus-square.svg";
-import thumbsUpSvg from "./sidebar/thumbs-up.svg";
-import xSvg from "./sidebar/x-lg.svg";
-import menuSvg from "./sidebar/menu.svg";
-import usersSvg from "./sidebar/users.svg";
+import github from "./svg/github.svg";
+import facebook from "./svg/facebook.svg";
+import mail from "./svg/mail.svg";
+import linkedin from "./svg/linkedin-in.svg";
+import curve1 from "./svg/curve-1.svg";
+import curve2 from "./svg/curve-2.svg";
 
-import imageSvg from "./home/image.svg";
-import mapPinSvg from "./home/map-pin.svg";
-import smileSvg from "./home/smile.svg";
-import threeDotsVerticalSvg from "./home/three-dots-vertical.svg";
-import thumbsUpBlueSvg from "./home/thumbs-up-blue.svg";
-import commentSvg from "./home/comment.svg";
-import shareSvg from "./home/share.svg";
-import customCover from "./home/customCover.png";
-import arrowSvg from "./home/arrow-right.svg";
-import plusSvg from "./home/plus.svg";
-import angleDownSvg from "./home/angle-down.svg";
-import chatDotsSvg from "./home/chat-dots.svg";
-import sendSvg from "./home/send-fill.svg";
+import gradient from "./images/gradient.png";
+import globe from "./images/globe.png";
+
+import css3Svg from "./svg/css3.svg";
+import html5Svg from "./svg/html5.svg";
+import jsSvg from "./svg/js.svg";
+import reactSvg from "./svg/react.svg";
+import tailwindCssSvg from "./svg/tailwindCss.svg";
+import nextJsSvg from "./svg/nextJs.svg";
+import sassSvg from "./svg/sass.svg";
+import npmSvg from "./svg/npm.svg";
+import gitSvg from "./svg/git-alt.svg";
+import viteSvg from "./svg/vite.svg";
+import ExpressSvg from "./svg/Express.svg";
+
+import MukingiSSProject from "./images/MukingiSSProject.png";
+import IMConnectProject from "./images/IMConnectProject.jpg";
+import brainwaveProject from "./images/brainwaveProject.png";
+import IMMoviesProject from "./images/IMMoviesProject.png";
+
+import brainwaveProjectSmall from "./images/brainwaveProject-small.png";
+import IMConnectProjectSmall from "./images/IMConnectProject-small.png";
+import IMMoviesProjectSmall from "./images/IMMoviesProject-small.png";
+import MukingiSSProjectSmall from "./images/MukingiSSProject-small.png";
+
+import undoneSvg from "./svg/undone.svg";
+import doneSvg from "./svg/done.svg";
+import AngleToRightSvg from "./svg/angle-right.svg";
+import AngleToRightWhiteSvg from "./svg/angle-right-white.svg";
+
+import mapPinSvg from "./svg/map-pin.svg";
+import envelopeSvg from "./svg/envelope-paper-fill.svg";
+import phoneSvg from "./svg/phone.svg";
+
+import cvDocument from "./CV.pdf";
+
+import css from "./logos/css.png";
+import express from "./logos/express.png";
+import git from "./logos/git.png";
+import html from "./logos/html.png";
+import javascript from "./logos/javascript.png";
+import mongodb from "./logos/mongodb.png";
+import nodejs from "./logos/nodejs.png";
+import react from "./logos/react.png";
+import sass from "./logos/sass.png";
+import socketio from "./logos/socketio (1).png";
+import tailwindcss from "./logos/tailwindcss.png";
+import mySQL from "./logos/mySQL.png";
+import MongoDBSvg from "./svg/MongoDB.svg";
+import MySQLSvg from "./svg/MySQL.svg";
+import NodeJsSvg from "./svg/Node.js.svg";
+import SocketIoSvg from "./svg/Socket.io.svg";
+
+import zoomSvg from "./svg/zoom-in.svg";
+import zoomOutSvg from "./svg/zoom-out.svg";
+import notFoundWhite from "./whiteNotFound.png";
+import notFound from "./notfound.png";
+
+import arrowLeftWhiteSvg from "./svg/arrow-left-white.svg";
+import arrowLeftSvg from "./svg/arrow-left.svg";
 
 export {
-  loaderSvg,
-  artUnderwater,
-  editSvg,
-  uploadCloud,
-  checkSvg,
-  commentsSvg,
-  bellSvg,
-  logo,
-  publicBg,
-  registerBg,
-  eyeSlashSvg,
-  searchSvg,
-  envelopeSvg,
-  userSvg,
-  arrowRightOnRectangleSvg,
-  gearFillSvg,
-  homeSvg,
-  plusSvg,
-  plusSquareSvg,
-  thumbsUpSvg,
-  xSvg,
-  menuSvg,
-  usersSvg,
-  imageSvg,
+  spinnerSvg,
+  blackSpinnerSvg,
+  github,
+  facebook,
+  mail,
+  linkedin,
+  profile,
+  profile2,
+  profileSmall,
+  gradient,
+  globe,
+  css3Svg,
+  html5Svg,
+  jsSvg,
+  reactSvg,
+  tailwindCssSvg,
+  nextJsSvg,
+  ExpressSvg,
+  sassSvg,
+  npmSvg,
+  gitSvg,
+  viteSvg,
+  curve1,
+  curve2,
+  MukingiSSProject,
+  IMConnectProject,
+  brainwaveProject,
+  IMMoviesProject,
+  brainwaveProjectSmall,
+  IMConnectProjectSmall,
+  IMMoviesProjectSmall,
+  MukingiSSProjectSmall,
+  undoneSvg,
+  doneSvg,
   mapPinSvg,
-  smileSvg,
-  threeDotsVerticalSvg,
-  thumbsUpBlueSvg,
-  commentSvg,
-  shareSvg,
-  customCover,
-  arrowSvg,
-  angleDownSvg,
-  chatDotsSvg,
-  sendSvg,
+  envelopeSvg,
+  phoneSvg,
+  cvDocument,
+  css,
+  express,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  react,
+  sass,
+  socketio,
+  tailwindcss,
+  mySQL,
+  MongoDBSvg,
+  MySQLSvg,
+  NodeJsSvg,
+  SocketIoSvg,
+  AngleToRightSvg,
+  AngleToRightWhiteSvg,
+  zoomSvg,
+  zoomOutSvg,
+  notFoundWhite,
+  notFound,
+  arrowLeftWhiteSvg,
+  arrowLeftSvg,
 };

@@ -1,0 +1,205 @@
+@import "./variables";
+@import "./customs";
+@import "./animations";
+
+/* General body styles */
+body {
+  display: flex;
+  justify-content: center;
+  background-color: $bg-color;
+  color: $text-color;
+  @apply min-w-full max-w-full overflow-x-hidden px-4 sm:px-[2rem] md:px-[3rem] lg:px-[4rem];
+}
+
+/* Mixins */
+
+/* Custom Theme Mixin */
+@mixin customTheme($light-customTheme: true) {
+  @if $light-customTheme {
+    background: lighten($bg-color, 80%);
+    color: darken($text-color, 90%);
+    .navbar {
+      background: lighten($bg-color, 80%);
+    }
+    .bg-gray {
+      @apply bg-gray-900;
+    }
+    .dark-bg {
+      background: lighten($bg-color, 85%);
+    }
+    .sticky.dark-bg {
+      background: #9191916e;
+    }
+    .light-bg {
+      background: $bg-color;
+    }
+    .text-primary {
+      color: darken($primary-color, 30%);
+    }
+    .bg-primary {
+      background: darken($primary-color, 30%);
+    }
+    .light {
+      background: #f4f4f4;
+    }
+    .profile-overlay {
+      background: linear-gradient(#b3151500 80%, #e4e4e7 90%);
+    }
+    .navLink-Underline::after {
+      background: darken($primary-color, 30%);
+    }
+    .border-primary {
+      border: 1px solid darken($text-color, 20%);
+    }
+    .text-color {
+      color: darken($text-color, 100%);
+    }
+    .text-reverse {
+      color: $text-color;
+    }
+
+    .span {
+      color: rgba(0, 0, 0, 0.534);
+    }
+
+    .scroll-design::-webkit-scrollbar-thumb {
+      background-color: darken($primary-color, 30%);
+    }
+
+    .text-outline {
+      text-shadow:
+        0 2px 3px black,
+        2px 0 3px black,
+        0 -2px 3px black,
+        -2px 0 3px black,
+        2px 2px 3px black,
+        -2px -2px 3px black;
+
+      color: lighten($bg-color, 80%);
+    }
+
+    .stair-0,
+    .stair-1,
+    .stair-2,
+    .stair-3,
+    .stair-4 {
+      box-shadow: 3px 3px 3px #18181b;
+    }
+
+    .stairs {
+      animation: LightStairsContainer 1.4s ease-in-out forwards;
+    }
+    @keyframes LightStairsContainer {
+      0% {
+        display: flex;
+        background-color: #f4f4f4;
+      }
+      50% {
+        background-color: #f4f4f4;
+      }
+      51% {
+        background-color: none;
+      }
+      99% {
+        display: flex;
+      }
+      100% {
+        display: none;
+      }
+    }
+
+    @keyframes pulse {
+      0% {
+        background-color: #f0f0f0;
+      }
+      50% {
+        background-color: #e0e0e0;
+      }
+      100% {
+        background-color: #f0f0f0;
+      }
+    }
+
+    .hide.white {
+      display: none;
+    }
+  } @else {
+    /* Dark theme adjustments */
+    background-color: $bg-color;
+    color: $text-color;
+
+    .navbar {
+      background-color: $bg-color;
+    }
+    .dark-bg {
+      background: darken($bg-color, 15%);
+    }
+
+    .text-primary {
+      color: lighten($primary-color, 10%);
+    }
+
+    .bg-primary {
+      background: lighten($primary-color, 30%);
+    }
+
+    .light {
+      background: #121212;
+    }
+
+    .profile-overlay {
+      background: linear-gradient(#000000 80%, #1a1a1d 90%);
+    }
+
+    .navLink-Underline::after {
+      background: lighten($primary-color, 30%);
+    }
+
+    @keyframes pulse {
+      0% {
+        background-color: #f0f0f01f;
+      }
+      50% {
+        background-color: #e0e0e02f;
+      }
+      100% {
+        background-color: #f0f0f01f;
+      }
+    }
+    .hide.dark {
+      display: none;
+    }
+  }
+}
+
+/* Rotate Mixin */
+@mixin rotate($index: 360) {
+  @for $i from 0 through $index {
+    .rotate-#{$i} {
+      transform: rotate(-#{$i}deg);
+
+      img {
+        transform: rotate(#{$i}deg);
+      }
+    }
+  }
+}
+
+/* Media Query Mixin */
+@mixin mobile {
+  @media (min-width: $media) {
+    @content;
+  }
+}
+
+/* Apply Rotation */
+@include rotate(360);
+
+/* Theme Styles */
+.theme-light {
+  @include customTheme($light-customTheme: true);
+}
+
+.theme-dark {
+  @include customTheme($light-customTheme: false);
+}

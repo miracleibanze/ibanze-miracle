@@ -48,7 +48,7 @@ export default {
           "@apply font-light text-xs tracking-tight uppercase": {},
         },
         ".button": {
-          "@apply text-xs font-bold text-[0.875rem] leading-6 md:text-base font-semibold tracking-wider":
+          "@apply text-xs font-bold cursor-pointer text-[0.875rem] leading-6 md:text-base font-semibold tracking-wider":
             {},
         },
       });
