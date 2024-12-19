@@ -13,7 +13,7 @@ export const ProjectCard = ({ project }) => {
   return (
     <div className="border-primary dark-bg fade-in flex min-w-[18rem] max-w-[18rem] flex-col overflow-hidden rounded-lg shadow-lg transition-transform duration-300 hover:scale-105">
       <div
-        className="group relative h-[15rem] w-full"
+        className="group relative h-[15rem] w-full bg-cover bg-center bg-no-repeat"
         onClick={() => setPreview(project.image.img)}
         style={{ backgroundImage: `url(${project.image.imgPlaceHolder})` }}
       >
