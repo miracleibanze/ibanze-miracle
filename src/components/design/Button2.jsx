@@ -3,7 +3,7 @@ const Button2 = ({ children, full, onClick, background, className }) => {
     <div
       className={`${
         className && className
-      } tagline px-4 py-2 rounded-md text-black font-semibold mb-4 ${
+      } tagline mb-4 rounded-md px-4 py-2 font-semibold ${
         full ? "w-full" : "w-max"
       } ${background ? background + " text-color" : "bg-primary"} `}
       onClick={onClick}
