@@ -40,6 +40,10 @@ import {
   tailwindcss,
   tailwindCssSvg,
   ExpressSvg,
+  IMMoviesBack,
+  ESMukingiBack,
+  IMBrainwaveBack,
+  IMConnectBack,
 } from "../assets";
 
 // Navigation links
@@ -91,7 +95,11 @@ export const frontendProjects = [
       "This project strengthened my expertise in React.js, particularly in component-based architecture and state management with React hooks. I gained deeper knowledge of Tailwind CSS for rapidly building responsive UIs and improved my development workflow with Vite. Additionally, I enhanced my design sensibilities to create engaging user interfaces.",
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
     status: "Completed",
-    image: { img: IMMoviesProject, imgPlaceHolder: IMMoviesProjectSmall },
+    image: {
+      img: IMMoviesProject,
+      imgPlaceHolder: IMMoviesProjectSmall,
+      backCover: IMMoviesBack,
+    },
     url: "https://immovies.vercel.app/",
     additionalLinks: [
       {
@@ -121,7 +129,11 @@ export const frontendProjects = [
       "I advanced my skills in creating intuitive, responsive designs using React and Tailwind CSS. This project helped me improve my ability to design user-friendly interfaces tailored to specific user groups, ensuring accessibility and ease of use.",
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
     status: "Completed",
-    image: { img: MukingiSSProject, imgPlaceHolder: MukingiSSProjectSmall },
+    image: {
+      img: MukingiSSProject,
+      imgPlaceHolder: MukingiSSProjectSmall,
+      backCover: ESMukingiBack,
+    },
     url: "https://e-s-mukingi.vercel.app/",
     additionalLinks: [
       {
@@ -151,7 +163,11 @@ export const frontendProjects = [
       "This project enhanced my ability to design applications focused on user experience and aesthetic simplicity. I also refined my skills in optimizing app performance and learned to strike a balance between functional and minimalistic design.",
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
     status: "Completed",
-    image: { img: brainwaveProject, imgPlaceHolder: brainwaveProjectSmall },
+    image: {
+      img: brainwaveProject,
+      imgPlaceHolder: brainwaveProjectSmall,
+      backCover: IMBrainwaveBack,
+    },
     url: "https://imbrainwave.vercel.app/",
     additionalLinks: [
       {
@@ -189,8 +205,12 @@ export const fullStackProjects = [
       "MongoDB",
       "Tailwind CSS",
     ],
-    status: "Pending",
-    image: { img: IMConnectProject, imgPlaceHolder: IMConnectProjectSmall },
+    status: "Completed",
+    image: {
+      img: IMConnectProject,
+      imgPlaceHolder: IMConnectProjectSmall,
+      backCover: IMConnectBack,
+    },
     url: "https://imconnect.vercel.app/",
     additionalLinks: [
       {
@@ -206,7 +226,7 @@ export const fullStackProjects = [
     ],
     duration: "2 month, 3 days",
     role: "Full-Stack Developer",
-    projectType: "Collaborative Project",
+    projectType: "Individual Project",
   },
 ];
 

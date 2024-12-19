@@ -17,9 +17,9 @@ const ProjectDetail = () => {
         <>
           <div className="light overflow-hidden rounded-lg shadow-xl">
             <img
-              src={project.image.img}
+              src={project.image.backCover}
               alt={project.name}
-              className="h-96 w-full object-cover"
+              className="aspect-video w-full object-cover object-top"
             />
 
             <div className="p-6">

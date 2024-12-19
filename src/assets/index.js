@@ -37,6 +37,11 @@ import IMConnectProjectSmall from "./images/IMConnectProject-small.png";
 import IMMoviesProjectSmall from "./images/IMMoviesProject-small.png";
 import MukingiSSProjectSmall from "./images/MukingiSSProject-small.png";
 
+import IMBrainwaveBack from "./images/IMBrainwaveBack.png";
+import IMConnectBack from "./images/IMConnectBack.png";
+import IMMoviesBack from "./images/IMMoviesBack.png";
+import ESMukingiBack from "./images/ESMukingiBack.png";
+
 import undoneSvg from "./svg/undone.svg";
 import doneSvg from "./svg/done.svg";
 import AngleToRightSvg from "./svg/angle-right.svg";
@@ -136,4 +141,8 @@ export {
   notFound,
   arrowLeftWhiteSvg,
   arrowLeftSvg,
+  IMBrainwaveBack,
+  IMConnectBack,
+  IMMoviesBack,
+  ESMukingiBack,
 };

@@ -68,7 +68,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center">
         <p className="text-sm text-gray-500">
-          © 2024 Your Name. All Rights Reserved.
+          © 2024 IBANZE Miracle. All Rights Reserved.
         </p>
       </div>
     </footer>

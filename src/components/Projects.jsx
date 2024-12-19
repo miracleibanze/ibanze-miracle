@@ -15,6 +15,7 @@ export const ProjectCard = ({ project }) => {
       <div
         className="group relative h-[15rem] w-full"
         onClick={() => setPreview(project.image.img)}
+        style={{ backgroundImage: `url(${project.image.imgPlaceHolder})` }}
       >
         <div className="absolute inset-0 hidden cursor-pointer items-center justify-center bg-black/40 group-hover:flex">
           <img src={zoomSvg} alt="zoom" className="w-8" />

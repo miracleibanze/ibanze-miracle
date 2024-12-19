@@ -52,6 +52,7 @@ const App = () => {
           path="/contact"
           element={
             <>
+              <PageSwitcherStairs />
               <Contact />
             </>
           }
