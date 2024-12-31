@@ -108,11 +108,11 @@ const Projects = () => {
       <div className="scroll-design flex w-full max-w-full gap-6 overflow-x-scroll py-4 text-start">
         {projectPart === 0 &&
           frontendProjects.map((item) => (
-            <ProjectCard project={item} key={item.id} />
+            <ProjectCard project={item} key={item.name} />
           ))}
         {projectPart === 1 &&
           fullStackProjects.map((item) => (
-            <ProjectCard project={item} key={item.id} />
+            <ProjectCard project={item} key={item.name} />
           ))}
       </div>
     </div>

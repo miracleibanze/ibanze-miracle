@@ -26,10 +26,8 @@ import {
   MukingiSSProjectSmall,
   mySQL,
   MySQLSvg,
-  nextJsSvg,
   nodejs,
   NodeJsSvg,
-  npmSvg,
   phoneSvg,
   react,
   reactSvg,
@@ -44,6 +42,8 @@ import {
   ESMukingiBack,
   IMBrainwaveBack,
   IMConnectBack,
+  HamweProject,
+  HamweProjectSmall,
 } from "../assets";
 
 // Navigation links
@@ -185,7 +185,6 @@ export const frontendProjects = [
     projectType: "Individual Project",
   },
 ];
-
 export const fullStackProjects = [
   {
     index: 4,
@@ -214,8 +213,11 @@ export const fullStackProjects = [
     url: "https://imconnect.vercel.app/",
     additionalLinks: [
       {
-        label: "GitHub Repo",
+        label: "GitHub Repo (Client)",
         url: "https://github.com/miracleibanze/IMConnect-client",
+      },
+      {
+        label: "GitHub Repo (API)",
         url: "https://github.com/miracleibanze/IMConnect-api",
       },
     ],
@@ -226,6 +228,46 @@ export const fullStackProjects = [
     ],
     duration: "2 month, 3 days",
     role: "Full-Stack Developer",
+    projectType: "Individual Project",
+  },
+  {
+    index: 5,
+    name: "Hamwe Real Estate",
+    description:
+      "Hamwe Real Estate is a platform focused on listing, searching, and showcasing properties, offering a seamless experience for users looking to buy, sell, or rent properties.",
+    detailedDescription:
+      "Hamwe Real Estate is a website dedicated to the Rwandan property market, featuring advanced property search, filtering, and responsive design. Built using modern technologies, it provides an intuitive interface for property discovery and engagement. The platform prioritizes simplicity and accessibility for its target audience.",
+    challengesFaced:
+      "Implementing dynamic search and filter functionalities while maintaining fast load times and responsive performance.",
+    skillsDeveloped:
+      "Gained experience in implementing advanced filtering and responsive UI design tailored for the real estate industry.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Vercel",
+      "Netlify",
+    ],
+    status: "Completed",
+    image: {
+      img: HamweProject,
+      imgPlaceHolder: HamweProjectSmall,
+      backCover: HamweProject,
+    },
+    url: "https://allhamwe.netlify.app/",
+    additionalLinks: [
+      {
+        label: "Live Demo",
+        url: "https://allhamwe.netlify.app/",
+      },
+    ],
+    projectHighlights: [
+      "Advanced property search and filter functionality",
+      "Responsive design tailored for Rwandan real estate",
+      "Dynamic property listings with user-friendly UI",
+    ],
+    duration: "3 months",
+    role: "Front-End Developer",
     projectType: "Individual Project",
   },
 ];
