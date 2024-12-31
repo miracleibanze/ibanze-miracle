@@ -258,7 +258,7 @@ export const fullStackProjects = [
     additionalLinks: [
       {
         label: "Live Demo",
-        url: "https://allhamwe.netlify.app/",
+        url: "https://github.com/miracleibanze2/hamwe",
       },
     ],
     projectHighlights: [
