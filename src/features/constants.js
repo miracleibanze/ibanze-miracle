@@ -42,8 +42,8 @@ import {
   ESMukingiBack,
   IMBrainwaveBack,
   IMConnectBack,
-  HamweProject,
-  HamweProjectSmall,
+  DuhuzeProject,
+  DuhuzeProjectSmall,
 } from "../assets";
 
 // Navigation links
@@ -232,11 +232,11 @@ export const fullStackProjects = [
   },
   {
     index: 5,
-    name: "Hamwe Real Estate",
+    name: "Duhuze Real Estate",
     description:
-      "Hamwe Real Estate is a platform focused on listing, searching, and showcasing properties, offering a seamless experience for users looking to buy, sell, or rent properties.",
+      "Duhuze Real Estate is a platform focused on listing, searching, and showcasing properties, offering a seamless experience for users looking to buy, sell, or rent properties.",
     detailedDescription:
-      "Hamwe Real Estate is a website dedicated to the Rwandan property market, featuring advanced property search, filtering, and responsive design. Built using modern technologies, it provides an intuitive interface for property discovery and engagement. The platform prioritizes simplicity and accessibility for its target audience.",
+      "Duhuze Real Estate is a website dedicated to the Rwandan property market, featuring advanced property search, filtering, and responsive design. Built using modern technologies, it provides an intuitive interface for property discovery and engagement. The platform prioritizes simplicity and accessibility for its target audience.",
     challengesFaced:
       "Implementing dynamic search and filter functionalities while maintaining fast load times and responsive performance.",
     skillsDeveloped:
@@ -250,15 +250,15 @@ export const fullStackProjects = [
     ],
     status: "Completed",
     image: {
-      img: HamweProject,
-      imgPlaceHolder: HamweProjectSmall,
-      backCover: HamweProject,
+      img: DuhuzeProject,
+      imgPlaceHolder: DuhuzeProjectSmall,
+      backCover: DuhuzeProject,
     },
-    url: "https://allhamwe.netlify.app/",
+    url: "https://Duhuze.netlify.app/",
     additionalLinks: [
       {
         label: "Live Demo",
-        url: "https://github.com/miracleibanze2/hamwe",
+        url: "https://github.com/miracleibanze2/Duhuze",
       },
     ],
     projectHighlights: [

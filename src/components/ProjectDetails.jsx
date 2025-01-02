@@ -4,9 +4,8 @@ import { frontendProjects, fullStackProjects } from "../features/constants";
 import NotFound from "./NotFound";
 
 const ProjectDetail = () => {
-  const { index } = useParams(); // Get project ID from URL parameters
+  const { index } = useParams();
 
-  // Find the specific project by ID
   const project = [...frontendProjects, ...fullStackProjects].find(
     (project) => project.index === parseInt(index),
   );

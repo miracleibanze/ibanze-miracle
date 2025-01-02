@@ -31,13 +31,13 @@ import MukingiSSProject from "./images/MukingiSSProject.png";
 import IMConnectProject from "./images/IMConnectProject.jpg";
 import brainwaveProject from "./images/brainwaveProject.png";
 import IMMoviesProject from "./images/IMMoviesProject.png";
-import HamweProject from "./images/HamweProject.png";
+import DuhuzeProject from "./images/DuhuzeProject.png";
 
 import brainwaveProjectSmall from "./images/brainwaveProject-small.png";
 import IMConnectProjectSmall from "./images/IMConnectProject-small.png";
 import IMMoviesProjectSmall from "./images/IMMoviesProject-small.png";
 import MukingiSSProjectSmall from "./images/MukingiSSProject-small.png";
-import HamweProjectSmall from "./images/HamweProjectSmall.png";
+import DuhuzeProjectSmall from "./images/DuhuzeProjectSmall.png";
 
 import IMBrainwaveBack from "./images/IMBrainwaveBack.png";
 import IMConnectBack from "./images/IMConnectBack.png";
@@ -147,6 +147,6 @@ export {
   IMConnectBack,
   IMMoviesBack,
   ESMukingiBack,
-  HamweProject,
-  HamweProjectSmall,
+  DuhuzeProject,
+  DuhuzeProjectSmall,
 };
