@@ -17,7 +17,6 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
   const handleSendMessage = async () => {
     const { names, email, phone, message } = formData;
 
@@ -34,7 +33,9 @@ const Contact = () => {
     setSuccess("");
 
     try {
-      await axios.post("http://localhost:4000/work", formData);
+      // Use the VITE_API_MESSAGE environment variable
+      const apiUrl = import.meta.env.VITE_API_MESSAGE;
+      await axios.post(apiUrl, formData);
       setSuccess("Message sent successfully! Thank you for reaching out.");
       setFormData({ names: "", email: "", phone: "", message: "" });
     } catch (err) {
