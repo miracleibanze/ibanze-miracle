@@ -121,7 +121,7 @@ const Navbar = () => {
             Contact
           </Button>
         </div>
-        <Gear onClick={toggleMenu} className="pl-4" />
+        <Gear onClick={toggleMenu} className="pl-4 max-sm:hidden" />
         {pathname === "/" && (
           <>
             <Button
