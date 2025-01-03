@@ -29,10 +29,10 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://immovies.vercel.app/"
+                href="https://duhuze.netlify.app/"
                 className="text-gray-400 transition-colors hover:text-white"
               >
-                IMMovies (front-end)
+                Duhuze Real Estate (full-stack)
               </a>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center">
         <p className="text-sm text-gray-500">
-          © 2024 IBANZE Miracle. All Rights Reserved.
+          © {new Date().getFullYear()} IBANZE Miracle. All Rights Reserved.
         </p>
       </div>
     </footer>
