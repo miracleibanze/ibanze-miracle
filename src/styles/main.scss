@@ -78,14 +78,7 @@ body {
       color: lighten($bg-color, 80%);
     }
 
-    .stair-0,
-    .stair-1,
-    .stair-2,
-    .stair-3,
-    .stair-4 {
-      box-shadow: 3px 3px 3px #18181b;
-    }
-
+  
     .stairs {
       animation: LightStairsContainer 1.4s ease-in-out forwards;
     }
