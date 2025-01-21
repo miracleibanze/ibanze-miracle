@@ -20,12 +20,12 @@ const Navbar = () => {
   // Initialize theme based on localStorage
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "dark") {
-      document.body.classList.add("theme-dark");
-      setIsDarkMode(true);
-    } else {
+    if (savedTheme === "light") {
       document.body.classList.add("theme-light");
       setIsDarkMode(false);
+    } else {
+      document.body.classList.add("theme-dark");
+      setIsDarkMode(true);
     }
   }, []);
 
