@@ -53,7 +53,7 @@ import mapPinSvg from "./svg/map-pin.svg";
 import envelopeSvg from "./svg/envelope-paper-fill.svg";
 import phoneSvg from "./svg/phone.svg";
 
-import cvDocument from "./IBANZE-Miracle-Resume.pdf";
+import cvDocument from "./Miracle-Resume.pdf";
 
 import css from "./logos/css.png";
 import express from "./logos/express.png";
