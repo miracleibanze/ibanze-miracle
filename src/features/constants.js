@@ -210,7 +210,7 @@ export const fullStackProjects = [
       imgPlaceHolder: IMConnectProjectSmall,
       backCover: IMConnectBack,
     },
-    url: "https://imconnect.vercel.app/",
+    url: "https://imconnect.netlify.app/",
     additionalLinks: [
       {
         label: "GitHub Repo (Client)",
