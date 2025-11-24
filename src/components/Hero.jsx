@@ -28,14 +28,17 @@ const Home = () => {
               </Button>
               <div className="flex flex-1 items-center justify-center gap-4">
                 {social.map((item) => (
-                  <div
-                    className="border-colorful flex aspect-square h-10 items-center justify-center rounded-full p-1.5"
-                    key={item.name}
-                    onClick={() => redirect(item.url)}
-                  >
-                    <img src={item.icon} className="h-full w-full" />
-                  </div>
-                ))}
+  <a
+    href={item.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    key={item.name}
+    className="border-colorful flex aspect-square h-10 items-center justify-center rounded-full p-1.5"
+  >
+    <img src={item.icon} className="h-full w-full" />
+  </a>
+))}
+
               </div>
             </div>
           </div>
