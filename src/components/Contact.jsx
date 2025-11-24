@@ -102,17 +102,39 @@ const Contact = () => {
         </Button2>
       </div>
       <div className="slide-in flex flex-col gap-4 md:w-[40%]">
-        {contact.map((item) => (
-          <div className="flex w-full items-center gap-2" key={item.id}>
-            <div className="light p-3">
-              <img src={item.icon} alt={item.title} className="h-6 w-6" />
-            </div>
-            <div>
-              <div className="span">{item.title}</div>
-              <div>{item.content}</div>
-            </div>
-          </div>
-        ))}
+        {contact.map((item) => {
+  // Detect link type
+  let href = "#";
+
+  if (item.title === "Email") {
+    href = `mailto:${item.content}`;
+  } else if (item.title === "Phone") {
+    href = `tel:${item.content.replace(/\s+/g, "")}`;
+  } else if (item.content.startsWith("http")) {
+    href = item.content;
+  }
+
+  return (
+    <div className="flex w-full items-center gap-2" key={item.id}>
+      <div className="light p-3">
+        <img src={item.icon} alt={item.title} className="h-6 w-6" />
+      </div>
+      <div>
+        <div className="span">{item.title}</div>
+
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          {item.content}
+        </a>
+      </div>
+    </div>
+  );
+})}
+
       </div>
     </div>
   );
