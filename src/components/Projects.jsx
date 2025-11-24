@@ -52,7 +52,7 @@ export const ProjectCard = ({ project }) => {
           </div>
         </div>
         <div className="mt-4 flex justify-between">
-          <a href={project.url}>
+          <a href={project.url}  target="_blank" rel="noopener noreferrer">
             <button className="text-reverse bg-primary button rounded-md px-4 py-1">
               Visit
             </button>
