@@ -38,6 +38,7 @@ import IMConnectProjectSmall from "./images/IMConnectProject-small.png";
 import IMMoviesProjectSmall from "./images/IMMoviesProject-small.png";
 import MukingiSSProjectSmall from "./images/MukingiSSProject-small.png";
 import DuhuzeProjectSmall from "./images/DuhuzeProjectSmall.png";
+import IMBONILearn from "./images/IMBONILearn.png";
 
 import IMBrainwaveBack from "./images/IMBrainwaveBack.png";
 import IMConnectBack from "./images/IMConnectBack.png";
@@ -109,6 +110,7 @@ export {
   IMConnectProject,
   brainwaveProject,
   IMMoviesProject,
+  IMBONILearn,
   brainwaveProjectSmall,
   IMConnectProjectSmall,
   IMMoviesProjectSmall,
