@@ -44,6 +44,7 @@ import {
   IMConnectBack,
   DuhuzeProject,
   DuhuzeProjectSmall,
+  IMBONILearn
 } from "../assets";
 
 // Navigation links
@@ -187,7 +188,48 @@ export const frontendProjects = [
 ];
 export const fullStackProjects = [
   {
-    index: 4,
+  index: 4,
+  name: "IMBONI Learn",
+  description:
+    "IMBONI Learn is an online learning platform designed to help students study more effectively through structured content, quizzes, assignments, and real-time progress tracking.",
+  detailedDescription:
+    "IMBONI Learn is a modern e-learning platform built to deliver an interactive study experience. The platform features organized lessons, quizzes, assignments, and user dashboards that display progress and performance. Developed with Next.js for a fast and scalable front-end, the project integrates clean UI components, state management, and dynamic routing. It is crafted to provide a smooth, responsive, and distraction-free learning environment for students across various study disciplines.",
+  challengesFaced:
+    "Designing the right structure for courses, chapters, and content so users can easily navigate lessons. Implementing smooth page transitions, fast data fetching, and an intuitive dashboard that works well on all device sizes.",
+  skillsDeveloped:
+    "Enhanced my experience with Next.js, React hooks, UI/UX organization, routing, and structuring complex front-end applications. Learned better component abstraction and improved my approach to designing modern educational interfaces.",
+  technologies: [
+    "Next.js",
+    "React.js",
+    "Tailwind CSS",
+    "JavaScript",
+    "Vercel"
+  ],
+  status: "Completed",
+  image: {
+    img: IMBONILearn,
+    imgPlaceHolder: IMBONILearn,
+    backCover: IMBONILearn,
+  },
+  url: "https://imboni-learn.vercel.app/",
+  additionalLinks: [
+    {
+      label: "GitHub Repo",
+      url: "https://github.com/miracleibanze/IMBONI-Learn",
+    },
+  ],
+  projectHighlights: [
+    "Clean and responsive e-learning UI",
+    "Organized course, chapter, and lesson structure",
+    "Dynamic pages with fast routing and smooth UX",
+    "Student-focused dashboard with progress indicators"
+  ],
+  duration: "1 month, 2 weeks",
+  role: "Front-End Developer",
+  projectType: "Individual Project",
+},
+{
+    index: 5,
     name: "IMConnect",
     description:
       "IMConnect is a full-stack application designed for seamless communication and collaboration, offering features like real-time messaging, group chats, and media sharing.",
@@ -231,7 +273,7 @@ export const fullStackProjects = [
     projectType: "Individual Project",
   },
   {
-    index: 5,
+    index: 6,
     name: "Duhuze Real Estate",
     description:
       "Duhuze Real Estate is a platform focused on listing, searching, and showcasing properties, offering a seamless experience for users looking to buy, sell, or rent properties.",
@@ -269,48 +311,7 @@ export const fullStackProjects = [
     duration: "3 months",
     role: "Front-End Developer",
     projectType: "Individual Project",
-  },{
-  index: 6,
-  name: "IMBONI Learn",
-  description:
-    "IMBONI Learn is an online learning platform designed to help students study more effectively through structured content, quizzes, assignments, and real-time progress tracking.",
-  detailedDescription:
-    "IMBONI Learn is a modern e-learning platform built to deliver an interactive study experience. The platform features organized lessons, quizzes, assignments, and user dashboards that display progress and performance. Developed with Next.js for a fast and scalable front-end, the project integrates clean UI components, state management, and dynamic routing. It is crafted to provide a smooth, responsive, and distraction-free learning environment for students across various study disciplines.",
-  challengesFaced:
-    "Designing the right structure for courses, chapters, and content so users can easily navigate lessons. Implementing smooth page transitions, fast data fetching, and an intuitive dashboard that works well on all device sizes.",
-  skillsDeveloped:
-    "Enhanced my experience with Next.js, React hooks, UI/UX organization, routing, and structuring complex front-end applications. Learned better component abstraction and improved my approach to designing modern educational interfaces.",
-  technologies: [
-    "Next.js",
-    "React.js",
-    "Tailwind CSS",
-    "JavaScript",
-    "Vercel"
-  ],
-  status: "Completed",
-  image: {
-    img: IMBONILearnProject,
-    imgPlaceHolder: IMBONILearnProjectSmall,
-    backCover: IMBONILearnBack,
-  },
-  url: "https://imboni-learn.vercel.app/",
-  additionalLinks: [
-    {
-      label: "GitHub Repo",
-      url: "https://github.com/miracleibanze/IMBONI-Learn",
-    },
-  ],
-  projectHighlights: [
-    "Clean and responsive e-learning UI",
-    "Organized course, chapter, and lesson structure",
-    "Dynamic pages with fast routing and smooth UX",
-    "Student-focused dashboard with progress indicators"
-  ],
-  duration: "1 month, 2 weeks",
-  role: "Front-End Developer",
-  projectType: "Individual Project",
-},
-
+  }
 ];
 
 // Contact info
