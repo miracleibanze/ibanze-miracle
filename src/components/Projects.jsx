@@ -102,7 +102,7 @@ const Projects = () => {
           className={`${projectPart === 1 && "border-b-4 border-blue-500 bg-zinc-500/30"} w-full cursor-pointer p-2 text-center leading-tight`}
           onClick={() => setProjectPart(1)}
         >
-          Backend Projects 💻
+          Full-Stack Projects 💻
         </span>
       </h5>
       <div className="scroll-design flex w-full max-w-full gap-6 overflow-x-scroll py-4 text-start">
