@@ -6,9 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import AppContextProvider from "./features/AppContext.jsx";
 
 
-
-
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
