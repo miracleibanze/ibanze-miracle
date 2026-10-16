@@ -61,7 +61,7 @@ export const social = [
   {
     name: "LinkedIn",
     icon: linkedin,
-    url: "https://www.linkedin.com/in/ibanze-miracle/",
+    url: "https://www.linkedin.com/in/miracleibanze/",
   },
   {
     name: "Facebook",
